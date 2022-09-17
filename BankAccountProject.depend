@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1655340874 source:c:\users\laptop\desktop\c++\bankaccountproject\main.cpp
+	<iostream>
+
+1655341713 source:c:\users\laptop\desktop\c++\bankaccountproject\bank.cpp
+	"Bank.h"
+	<iostream>
+
+1655341094 c:\users\laptop\desktop\c++\bankaccountproject\bank.h
+	<string>
+
