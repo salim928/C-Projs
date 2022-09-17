@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1656104809 source:c:\users\laptop\desktop\c++\carproject\car.cpp
+	"Car.h"
+
+1656104809 c:\users\laptop\desktop\c++\carproject\car.h
+	<string>
+
