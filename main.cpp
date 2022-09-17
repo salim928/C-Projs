@@ -1,22 +1,15 @@
 #include <iostream>
-#include "Bank.h"
+#include <memory>
+#include "Car.h"
 
 using namespace std;
 
 int main()
 {
-    BankAccount myAccount("Bob",5000);
-    BankAccount John("Johnson");
+    auto myCar = make_unique<Car>("red",4);
 
-    John.deposit(500);
-    cout << "John's account contains "<<John.getBalance()<< endl;
 
-    cout << endl;
-    John.withdraw(1000);
-    cout << "John's account is still "<<John.getBalance()<< endl;
-
-    cout<<endl;
-    cout <<myAccount.getOwner()<<" account contains "<< myAccount.getBalance()<<endl;
-
+    cout <<"The color of the car is :"<<myCar->getColor()<<endl;
+    cout << "The number of door: "<<myCar->getNumDoors()<<endl;
     return 0;
 }
